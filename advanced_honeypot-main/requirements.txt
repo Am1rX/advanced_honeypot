@@ -1,0 +1,4 @@
+# Runtime dependencies. Both are optional — the honeypot degrades gracefully
+# and disables only the related module if a package is missing.
+paramiko>=2.9      # SSH honeypot + SFTP capture
+scapy>=2.4         # passive SYN-scan / OS fingerprinting
